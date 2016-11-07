@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="NezubrilkinProject.UserControls.WordPhraseRepresent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="34" FlowDirection="LeftToRight" HorizontalAlignment="Stretch" 
+             UseLayoutRounding="False" HorizontalContentAlignment="Stretch">
+    <DockPanel LastChildFill="True" Width="Auto">
+        <CheckBox Name="WP_check" DockPanel.Dock="Left" VerticalAlignment="Center" Margin="5,0,0,0" Checked="WP_check_Checked" Unchecked="WP_check_Checked"></CheckBox>
+        <TextBlock Name="orig"
+            VerticalAlignment="Center" DockPanel.Dock="Left" Margin="5,0,0,0" FontSize="18">Слово_фраза</TextBlock>
+        <TextBlock Name="txt_trsc"
+            VerticalAlignment="Center"  Margin="5,0,0,0" FontSize="18">
+            </TextBlock>
+        <TextBlock Name="transl"
+            VerticalAlignment="Center" DockPanel.Dock="Right" Margin="5,0,5,0" FontSize="18">Перевод</TextBlock>
+        <TextBlock DockPanel.Dock="Left"></TextBlock>
+    </DockPanel>
+</UserControl>

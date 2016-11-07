@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="NezubrilkinProject.UserControls.ImageStatisticLesson"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" >
+    <DockPanel Name="body" Height="60" LastChildFill="True">
+        <Border DockPanel.Dock="Left" 
+                Width="60"  Name="less_image"/>
+        <ProgressBar Name="pg_percent" Width = "150" Height = "20" 
+                     Foreground="Red" DockPanel.Dock="Left"/>
+        <TextBlock Name="txt_percent" VerticalAlignment="Center" Margin="15,0,0,0"
+                   DockPanel.Dock="Left" Text="21%"/>
+        <TextBlock Name="less_name" FontSize="20" VerticalAlignment="Center" 
+                   Text="Приветствие и прощание" Margin="15,0,0,0" DockPanel.Dock="Left"/>
+    </DockPanel>
+</UserControl>
